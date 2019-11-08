@@ -1,0 +1,60 @@
+C:\Users\43036207856\Documents\MVC - RoleTop\bin\Debug\netcoreapp2.2\MVC - RoleTop.deps.json
+C:\Users\43036207856\Documents\MVC - RoleTop\bin\Debug\netcoreapp2.2\MVC - RoleTop.runtimeconfig.json
+C:\Users\43036207856\Documents\MVC - RoleTop\bin\Debug\netcoreapp2.2\MVC - RoleTop.runtimeconfig.dev.json
+C:\Users\43036207856\Documents\MVC - RoleTop\bin\Debug\netcoreapp2.2\MVC - RoleTop.dll
+C:\Users\43036207856\Documents\MVC - RoleTop\bin\Debug\netcoreapp2.2\MVC - RoleTop.pdb
+C:\Users\43036207856\Documents\MVC - RoleTop\bin\Debug\netcoreapp2.2\MVC - RoleTop.Views.dll
+C:\Users\43036207856\Documents\MVC - RoleTop\bin\Debug\netcoreapp2.2\MVC - RoleTop.Views.pdb
+C:\Users\43036207856\Documents\MVC - RoleTop\obj\Debug\netcoreapp2.2\MVC - RoleTop.csprojAssemblyReference.cache
+C:\Users\43036207856\Documents\MVC - RoleTop\obj\Debug\netcoreapp2.2\MVC - RoleTop.csproj.CoreCompileInputs.cache
+C:\Users\43036207856\Documents\MVC - RoleTop\obj\Debug\netcoreapp2.2\MVC - RoleTop.RazorAssemblyInfo.cache
+C:\Users\43036207856\Documents\MVC - RoleTop\obj\Debug\netcoreapp2.2\MVC - RoleTop.RazorAssemblyInfo.cs
+C:\Users\43036207856\Documents\MVC - RoleTop\obj\Debug\netcoreapp2.2\MVC - RoleTop.AssemblyInfoInputs.cache
+C:\Users\43036207856\Documents\MVC - RoleTop\obj\Debug\netcoreapp2.2\MVC - RoleTop.AssemblyInfo.cs
+C:\Users\43036207856\Documents\MVC - RoleTop\obj\Debug\netcoreapp2.2\MVC - RoleTop.TagHelpers.input.cache
+C:\Users\43036207856\Documents\MVC - RoleTop\obj\Debug\netcoreapp2.2\MVC - RoleTop.TagHelpers.output.cache
+C:\Users\43036207856\Documents\MVC - RoleTop\obj\Debug\netcoreapp2.2\MVC - RoleTop.RazorCoreGenerate.cache
+C:\Users\43036207856\Documents\MVC - RoleTop\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\43036207856\Documents\MVC - RoleTop\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\43036207856\Documents\MVC - RoleTop\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\43036207856\Documents\MVC - RoleTop\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\43036207856\Documents\MVC - RoleTop\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\43036207856\Documents\MVC - RoleTop\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\43036207856\Documents\MVC - RoleTop\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\43036207856\Documents\MVC - RoleTop\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\43036207856\Documents\MVC - RoleTop\obj\Debug\netcoreapp2.2\MVC - RoleTop.RazorTargetAssemblyInfo.cache
+C:\Users\43036207856\Documents\MVC - RoleTop\obj\Debug\netcoreapp2.2\MVC - RoleTop.RazorTargetAssemblyInfo.cs
+C:\Users\43036207856\Documents\MVC - RoleTop\obj\Debug\netcoreapp2.2\MVC - RoleTop.Views.pdb
+C:\Users\43036207856\Documents\MVC - RoleTop\obj\Debug\netcoreapp2.2\MVC - RoleTop.dll
+C:\Users\43036207856\Documents\MVC - RoleTop\obj\Debug\netcoreapp2.2\MVC - RoleTop.pdb
+C:\Users\43036207856\Documents\MVC - RoleTop\obj\Debug\netcoreapp2.2\MVC - RoleTop.csproj.CopyComplete
+C:\Users\43036207856\Documents\MVC - Portfólio\bin\Debug\netcoreapp2.2\MVC - RoleTop.deps.json
+C:\Users\43036207856\Documents\MVC - Portfólio\bin\Debug\netcoreapp2.2\MVC - RoleTop.runtimeconfig.json
+C:\Users\43036207856\Documents\MVC - Portfólio\bin\Debug\netcoreapp2.2\MVC - RoleTop.runtimeconfig.dev.json
+C:\Users\43036207856\Documents\MVC - Portfólio\bin\Debug\netcoreapp2.2\MVC - RoleTop.dll
+C:\Users\43036207856\Documents\MVC - Portfólio\bin\Debug\netcoreapp2.2\MVC - RoleTop.pdb
+C:\Users\43036207856\Documents\MVC - Portfólio\bin\Debug\netcoreapp2.2\MVC - RoleTop.Views.dll
+C:\Users\43036207856\Documents\MVC - Portfólio\bin\Debug\netcoreapp2.2\MVC - RoleTop.Views.pdb
+C:\Users\43036207856\Documents\MVC - Portfólio\obj\Debug\netcoreapp2.2\MVC - RoleTop.csprojAssemblyReference.cache
+C:\Users\43036207856\Documents\MVC - Portfólio\obj\Debug\netcoreapp2.2\MVC - RoleTop.csproj.CoreCompileInputs.cache
+C:\Users\43036207856\Documents\MVC - Portfólio\obj\Debug\netcoreapp2.2\MVC - RoleTop.RazorAssemblyInfo.cache
+C:\Users\43036207856\Documents\MVC - Portfólio\obj\Debug\netcoreapp2.2\MVC - RoleTop.RazorAssemblyInfo.cs
+C:\Users\43036207856\Documents\MVC - Portfólio\obj\Debug\netcoreapp2.2\MVC - RoleTop.AssemblyInfoInputs.cache
+C:\Users\43036207856\Documents\MVC - Portfólio\obj\Debug\netcoreapp2.2\MVC - RoleTop.AssemblyInfo.cs
+C:\Users\43036207856\Documents\MVC - Portfólio\obj\Debug\netcoreapp2.2\MVC - RoleTop.TagHelpers.input.cache
+C:\Users\43036207856\Documents\MVC - Portfólio\obj\Debug\netcoreapp2.2\MVC - RoleTop.TagHelpers.output.cache
+C:\Users\43036207856\Documents\MVC - Portfólio\obj\Debug\netcoreapp2.2\MVC - RoleTop.RazorCoreGenerate.cache
+C:\Users\43036207856\Documents\MVC - Portfólio\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\43036207856\Documents\MVC - Portfólio\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\43036207856\Documents\MVC - Portfólio\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\43036207856\Documents\MVC - Portfólio\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\43036207856\Documents\MVC - Portfólio\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\43036207856\Documents\MVC - Portfólio\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\43036207856\Documents\MVC - Portfólio\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\43036207856\Documents\MVC - Portfólio\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\43036207856\Documents\MVC - Portfólio\obj\Debug\netcoreapp2.2\MVC - RoleTop.RazorTargetAssemblyInfo.cache
+C:\Users\43036207856\Documents\MVC - Portfólio\obj\Debug\netcoreapp2.2\MVC - RoleTop.RazorTargetAssemblyInfo.cs
+C:\Users\43036207856\Documents\MVC - Portfólio\obj\Debug\netcoreapp2.2\MVC - RoleTop.Views.pdb
+C:\Users\43036207856\Documents\MVC - Portfólio\obj\Debug\netcoreapp2.2\MVC - RoleTop.dll
+C:\Users\43036207856\Documents\MVC - Portfólio\obj\Debug\netcoreapp2.2\MVC - RoleTop.pdb
+C:\Users\43036207856\Documents\MVC - Portfólio\obj\Debug\netcoreapp2.2\MVC - RoleTop.csproj.CopyComplete

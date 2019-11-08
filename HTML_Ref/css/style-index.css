@@ -1,0 +1,237 @@
+* {
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1.2em;
+    background-color: black;
+}
+
+
+/* aqui começa CSS para o navegador */
+
+#cabecalho {
+    height: 180px;
+    text-align: left;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    float: left;
+}
+
+img, #logo{
+    height: 180px;
+    width: 180px;
+}
+
+h1{
+    font-size: 80px;
+    margin-left: 10px;
+    font-family: GothicI, sans-serif;
+    color: black;
+}
+h3{
+    margin-left: 10px;
+}
+
+#cabecalho div.letrinhas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div#slider {
+    height: 280px;
+    background-color: rgb(0, 0, 139);
+    color: white;
+    /* margin-left: 200px; */
+    padding-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div#slider .grupopiano{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div#slider .gruporpg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div#slider .grupogames{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div#slider .grupotrilha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+div#slider .grupotattoo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.tatuagem{
+    margin-left: 12px;
+}
+
+div#slider .grupopiercing{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#conteudos {
+    min-height: 300px;
+    color: black;
+    padding: 25px;
+    overflow: visible;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+#depoimentos {
+    height: 350px;
+    background-color: orange;
+    text-align: center;
+}
+
+#depoimentos img, 
+/*#informacoes div.imgdepoimento,*/
+#slider div.imgdepoimento {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 0% auto;
+    text-align: center;
+    background-color: chartreuse;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+}
+
+/*#slider div.imgdepoimento img{
+    height: 120px;
+    width: 120px;
+}*/
+
+#slider p{
+    padding: 0;
+    margin-top: 10px;
+}
+
+#slider h1{
+    font-size: 50px;
+}
+
+/***************************slider*******************************/ 
+#slider div.imgdepoimento{
+    height: 220px;
+    width: 220px;
+}
+
+#slider div.imgdepoimento img{
+    height: 100%;
+    width: 100%;
+}
+/************************* FIM slider *******************************/
+
+#foto1 {
+    background-image: url(../img/siqueira.png);
+    background-size: cover;
+}
+#foto2{
+    background-image: url(../img/cantora.png);
+    background-size: cover;
+}
+#foto3{
+    background-image: url(../img/424deec1966ad5cce726bbaac28a38b4.jpg);
+    background-size: cover;
+}
+#foto4{
+    background-image: url(../img/gatinho-feliz-2.jpg);
+    background-size: cover;
+}
+#foto5{
+    background-image: url(../img/baianinhodemaua.png);
+    background-size: cover;
+}
+
+
+#informacoes {
+    height: 350px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+
+.informacoes{
+    width: 20%;
+    height: 80%;
+    /*background-color: darkgreen;*/
+    display: block;
+    float: left;
+}
+
+#informacoes h2, #informacoes p{
+    background-color: rgb(58, 104, 12);
+    margin: 5px;
+    box-shadow: 3px 3px rgb(53, 73, 32);
+    border: unset;
+    width: unset;
+    padding: 1%;
+    border-radius: unset;
+}
+
+#informacoes p{
+    background-color: rgb(58, 104, 12);
+}
+
+
+#copy {
+    height: 100px;
+    background-color: orange;
+}
+
+p {
+    margin: 0px;
+    padding: 40px;
+    width: 40%;
+    float: left;
+}
+
+table{
+    margin: auto;
+    width: 70%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+}
+
