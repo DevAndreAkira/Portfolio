@@ -72,7 +72,6 @@ div#slider {
     background-color: rgb(0, 0, 139);
     color: white;
     /* margin-left: 200px; */
-    padding-left: 20px;
     padding-top: 20px;
     display: flex;
     justify-content: space-evenly;
@@ -205,7 +204,7 @@ div.hobbies{
 
 
 #informacoes {
-    height: 350px;
+    height: 320px;
     background-color: white;
     text-align: center;
     color: white;
@@ -220,6 +219,9 @@ div.hobbies{
     float: left;
     margin-bottom: 30px;
 }
+#informacoes p{
+    height: 260px;
+}
 
 #informacoes h2, #informacoes p{
     background-color: rgb(212, 0, 0);
@@ -229,6 +231,7 @@ div.hobbies{
     width: unset;
     padding: 1%;
     border-radius: unset;
+    font-size: 12px;
 }
 
 #informacoes p{
@@ -273,4 +276,199 @@ td{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+@media (max-width: 1286px){
+    #informacoes p{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 1190px)
+{
+    h4{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1110px)
+{
+    p{
+        font-size: 12px;
+    }
+    #logotipo img{
+        width: 150px;
+        height: 150px;
+    }
+    h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    div#slider{
+        height: 150px;
+    }
+    #slider div.imgdepoimento {
+        height: 100px;
+        width: 100px;
+    }
+    #slider h2{
+        font-size: 20px;
+    }
+
+    div#depoimentos{
+        height: 200px;
+    }
+    #depoimentos h2{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 850px)
+{
+    p{
+        padding: 30px;
+    }
+}
+
+@media (max-width:800px)
+{
+    p{
+        padding: 20px;
+        font-size: 10px;
+    }
+    #informacoes p{
+        font-size: 8px;
+    }
+}
+
+@media (max-width:650px)
+{
+    h1{
+        font-size: 30px;
+        margin: unset;
+    }
+    h2{
+        font-size: 15px;
+    }
+    #logotipo img{
+        width: 100px;
+        height: 100px;
+    }
+    #cabecalho{
+        height: 50px;
+    }
+
+    #slider h2{
+        font-size: 14px;
+    }
+    #informacoes h2{
+        font-size: 10px;
+
+    }
+}
+
+@media (max-width:530px)
+{
+    div#slider{
+        height: 100px;
+    }
+    #slider div.imgdepoimento{
+        width: 80px;
+        height: 80px;
+    }
+
+    div#depoimentos{
+        height: 170px;
+    }
+    #depoimentos img{
+        width: 80px;
+        height: 80px;
+    }
+    #depoimentos h2{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 24px;
+    }
+    #conteudos p{
+        padding: 10px;
+    }
+    
+    #informacoes p{
+        font-size: 7px;
+    }
+    #informacoes h2{
+        font-size: 9px;
+    }
+}
+
+@media (max-width:440px)
+{
+    #slider div.imgdepoimento{
+        width: 60px;
+        height: 60px;
+    }
+    #slider h2{
+        font-size: 10px;
+    }
+
+    div#depoimentos{
+        height: 100px;
+    }
+    #depoimentos h4{
+        font-size: 16px;
+    }
+    #depoimentos h2{
+        font-size: 10px;
+    }
+    #depoimentos img{
+        width: 50px;
+        height: 50px;
+    }
+
+    #informacoes h2{
+        font-size: 7px;
+    }
+
+    #informacoes p{
+        font-size: 6px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 10px;
+    }
+    p{
+        font-size: 9px;
+    }
+
+}
+
+@media (max-width:350px)
+{
+    #informacoes h2{
+        font-size: 6px;
+    }
+
+    #slider div.imgdepoimento{
+        width: 50px;
+        height: 50px;
+    }
+    #slider h2{
+        font-size: 9px;
+    }
+
+    p{
+        font-size: 8px;
+    }
 }
