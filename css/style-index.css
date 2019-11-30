@@ -5,7 +5,7 @@
 }
 body{
     font-size: 1.2em;
-    background-color: black;
+    background:linear-gradient(to bottom, rgb(0, 0, 0), rgb(33, 0, 87));
 }
 
 
@@ -69,7 +69,6 @@ h4{
 
 div#slider {
     height: 220px;
-    background-color: rgb(0, 0, 139);
     color: white;
     /* margin-left: 200px; */
     padding-top: 20px;
@@ -124,7 +123,7 @@ div#slider .grupotrilha{
 
 #depoimentos {
     height: 220px;
-    background-color: rgb(0, 0, 139);
+    background:linear-gradient(to bottom, rgb(0, 0, 0), rgb(2, 0, 95));
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -205,7 +204,7 @@ div.hobbies{
 
 #informacoes {
     height: 320px;
-    background-color: white;
+    background-color: rgb(41, 0, 0);
     text-align: center;
     color: white;
     font-size: 12px;
@@ -224,7 +223,7 @@ div.hobbies{
 }
 
 #informacoes h2, #informacoes p{
-    background-color: rgb(212, 0, 0);
+    background:linear-gradient(to bottom, rgb(134, 0, 0), rgb(0, 0, 0));
     margin: 5px;
     box-shadow: 3px 3px rgb(148, 0, 0);
     border: unset;
