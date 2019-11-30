@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 html{
-    line-height: 1.15;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     /* background-color: rgb(74, 74, 255); */
@@ -41,16 +40,16 @@ html{
     animation: starMovement--2 100s ease infinite forwards;
     animation-fill-mode: both;
     height: 3px;
-    left: 3vw;
+    left: -30vw;
     opacity: .3333333;
-    top: 32vw;
+    top: 42vw;
     width: 3px;
 }
 .star:nth-child(3){
     animation: starMovement--3 90s ease infinite forwards;
     animation-fill-mode: both;
     height: 3px;
-    left: 5vw;
+    left: -120vw;
     opacity: .3333333;
     top: 12vw;
     width: 3px;
@@ -59,7 +58,7 @@ html{
     animation: starMovement--4 80s ease infinite forwards;
     animation-fill-mode: both;
     height: 3px;
-    left: 3vw;
+    left: -190vw;
     opacity: .3333333;
     top: 22vw;
     width: 3px;
@@ -68,16 +67,16 @@ html{
     animation: starMovement--5 70s ease infinite forwards;
     animation-fill-mode: both;
     height: 3px;
-    left: 3vw;
+    left: -235vw;
     opacity: .3333333;
-    top: -32vw;
+    top: 40vw;
     width: 3px;
 }
 .star:nth-child(6){
     animation: starMovement--6 60s ease infinite forwards;
     animation-fill-mode: both;
     height: 3px;
-    left: 3vw;
+    left: -214vw;
     opacity: .3333333;
     top: -22vw;
     width: 3px;
@@ -86,7 +85,7 @@ html{
     animation: starMovement--7 50s ease infinite forwards;
     animation-fill-mode: both;
     height: 3px;
-    left: 3vw;
+    left: -404vw;
     opacity: .3333333;
     top: -12vw;
     width: 3px;
@@ -95,7 +94,7 @@ html{
     animation: starMovement--8 40s ease infinite forwards;
     animation-fill-mode: both;
     height: 3px;
-    left: 3vw;
+    left: -245vw;
     opacity: .3333333;
     top: -2vw;
     width: 3px;
@@ -104,7 +103,7 @@ html{
     animation: starMovement--9 110s ease infinite forwards;
     animation-fill-mode: both;
     height: 3px;
-    left: 3vw;
+    left: -147vw;
     opacity: .3333333;
     top: 40vw;
     width: 3px;
@@ -113,7 +112,7 @@ html{
     animation: starMovement--10 100s ease infinite forwards;
     animation-fill-mode: both;
     height: 3px;
-    left: 3vw;
+    left: -32vw;
     opacity: .3333333;
     top: 52vw;
     width: 3px;
@@ -122,7 +121,7 @@ html{
     animation: starMovement--11 90s ease infinite forwards;
     animation-fill-mode: both;
     height: 3px;
-    left: 3vw;
+    left: -328vw;
     opacity: .3333333;
     top: 62vw;
     width: 3px;
@@ -131,7 +130,7 @@ html{
     animation: starMovement--12 80s ease infinite forwards;
     animation-fill-mode: both;
     height: 3px;
-    left: 3vw;
+    left: 0vw;
     opacity: .3333333;
     top: 72vw;
     width: 3px;
@@ -140,7 +139,7 @@ html{
     animation: starMovement--13 70s ease infinite forwards;
     animation-fill-mode: both;
     height: 4px;
-    left: 3vw;
+    left: -181vw;
     opacity: .3333333;
     top: 82vw;
     width: 4px;
@@ -149,7 +148,7 @@ html{
     animation: starMovement--14 60s ease infinite forwards;
     animation-fill-mode: both;
     height: 3px;
-    left: 7vw;
+    left: -70vw;
     opacity: .3333333;
     top: 75vw;
     width: 7px;
@@ -158,7 +157,7 @@ html{
     animation: starMovement--15 50s ease infinite forwards;
     animation-fill-mode: both;
     height: 3px;
-    left: 33vw;
+    left: -60vw;
     opacity: .3333333;
     top: 66vw;
     width: 3px;
@@ -167,7 +166,7 @@ html{
     animation: starMovement--16 40s ease infinite forwards;
     animation-fill-mode: both;
     height: 3px;
-    left: 13vw;
+    left: -50vw;
     opacity: .3333333;
     top: 12vw;
     width: 3px;
@@ -176,7 +175,7 @@ html{
     animation: starMovement--17 110s ease infinite forwards;
     animation-fill-mode: both;
     height: 3px;
-    left: -3vw;
+    left: -55vw;
     opacity: .3333333;
     top: 15vw;
     width: 3px;
@@ -185,7 +184,7 @@ html{
     animation: starMovement--18 100s ease infinite forwards;
     animation-fill-mode: both;
     height: 3px;
-    left: 13vw;
+    left: -65vw;
     opacity: .3333333;
     top: 20vw;
     width: 3px;
@@ -214,7 +213,7 @@ html{
     height: 3px;
     left: 3vw;
     opacity: .3333333;
-    top: 32vw;
+    top: 47vw;
     width: 3px;
 }
 .star:nth-child(22){
@@ -223,61 +222,61 @@ html{
     height: 3px;
     left: 3vw;
     opacity: .3333333;
-    top: 32vw;
+    top: 22vw;
     width: 3px;
 }
 .star:nth-child(23){
     animation: starMovement--23 50s ease infinite forwards;
     animation-fill-mode: both;
     height: 3px;
-    left: 3vw;
+    left: 90vw;
     opacity: .3333333;
-    top: 32vw;
+    top: 13vw;
     width: 3px;
 }
 .star:nth-child(24){
     animation: starMovement--24 40s ease infinite forwards;
     animation-fill-mode: both;
     height: 3px;
-    left: 3vw;
+    left: -130vw;
     opacity: .3333333;
-    top: 32vw;
+    top: 22vw;
     width: 3px;
 }
 .star:nth-child(25){
     animation: starMovement--25 110s ease infinite forwards;
     animation-fill-mode: both;
     height: 3px;
-    left: 3vw;
+    left: -100vw;
     opacity: .3333333;
-    top: 32vw;
+    top: 30vw;
     width: 3px;
 }
 .star:nth-child(26){
     animation: starMovement--26 100s ease infinite forwards;
     animation-fill-mode: both;
     height: 7px;
-    left: 0vw;
+    left: -70vw;
     opacity: .3333333;
-    top: 32vw;
+    top: 52vw;
     width: 7px;
 }
 .star:nth-child(27){
     animation: starMovement--27 90s ease infinite forwards;
     animation-fill-mode: both;
     height: 3px;
-    left: 3vw;
+    left: -180vw;
     opacity: .3333333;
-    top: 32vw;
+    top: 35vw;
     width: 3px;
 }
 .star:nth-child(28){
     animation: starMovement--28 80s ease infinite forwards;
     animation-fill-mode: both;
     height: 3px;
-    left: 3vw;
+    left: -210vw;
     opacity: .3333333;
-    top: 32vw;
+    top: 15vw;
     width: 3px;
 }
 
@@ -286,9 +285,9 @@ html{
     animation: starMovement--29 70s ease infinite forwards;
     animation-fill-mode: both;
     height: 3px;
-    left: 41vw;
+    left: -270vw;
     opacity: .3333333;
-    top: 20vw;
+    top: 2vw;
     width: 3px;
 }
 
@@ -296,7 +295,7 @@ html{
     animation: starMovement--30 60s ease infinite forwards;
     animation-fill-mode: both;
     height: 5px;
-    left: 51vw;
+    left: -49vw;
     opacity: .3333333;
     top: 20vw;
     width: 5px;
@@ -574,109 +573,109 @@ html{
 }
 @media all and (-ms-high-contrast:none){
     .star:nth-child(20){
-        animation:starMovement__ie--20 90s ease infinite forwards;
+        animation:starMovement__ie--20 80s ease infinite forwards;
         animation-fill-mode: both;
     }
 
     .star:nth-child(20) *::-ms-backdrop,
     .star:nth-child(20){
-        animation: starMovent__ie--20 90s ease infinite forwards;
+        animation: starMovent__ie--20 80s ease infinite forwards;
         animation-fill-mode: both;
     }
 }
 @media all and (-ms-high-contrast:none){
     .star:nth-child(21){
-        animation:starMovement__ie--21 90s ease infinite forwards;
+        animation:starMovement__ie--21 70s ease infinite forwards;
         animation-fill-mode: both;
     }
 
     .star:nth-child(21) *::-ms-backdrop,
     .star:nth-child(21){
-        animation: starMovent__ie--21 90s ease infinite forwards;
+        animation: starMovent__ie--21 70s ease infinite forwards;
         animation-fill-mode: both;
     }
 }
 @media all and (-ms-high-contrast:none){
     .star:nth-child(22){
-        animation:starMovement__ie--22 90s ease infinite forwards;
+        animation:starMovement__ie--22 60s ease infinite forwards;
         animation-fill-mode: both;
     }
 
     .star:nth-child(22) *::-ms-backdrop,
     .star:nth-child(22){
-        animation: starMovent__ie--22 90s ease infinite forwards;
+        animation: starMovent__ie--22 60s ease infinite forwards;
         animation-fill-mode: both;
     }
 }
 @media all and (-ms-high-contrast:none){
     .star:nth-child(23){
-        animation:starMovement__ie--23 90s ease infinite forwards;
+        animation:starMovement__ie--23 50s ease infinite forwards;
         animation-fill-mode: both;
     }
 
     .star:nth-child(23) *::-ms-backdrop,
     .star:nth-child(23){
-        animation: starMovent__ie--23 90s ease infinite forwards;
+        animation: starMovent__ie--23 50s ease infinite forwards;
         animation-fill-mode: both;
     }
 }
 @media all and (-ms-high-contrast:none){
     .star:nth-child(24){
-        animation:starMovement__ie--24 90s ease infinite forwards;
+        animation:starMovement__ie--24 40s ease infinite forwards;
         animation-fill-mode: both;
     }
 
     .star:nth-child(24) *::-ms-backdrop,
     .star:nth-child(24){
-        animation: starMovent__ie--24 90s ease infinite forwards;
+        animation: starMovent__ie--24 40s ease infinite forwards;
         animation-fill-mode: both;
     }
 }
 @media all and (-ms-high-contrast:none){
     .star:nth-child(25){
-        animation:starMovement__ie--25 90s ease infinite forwards;
+        animation:starMovement__ie--25 30s ease infinite forwards;
         animation-fill-mode: both;
     }
 
     .star:nth-child(25) *::-ms-backdrop,
     .star:nth-child(25){
-        animation: starMovent__ie--25 90s ease infinite forwards;
+        animation: starMovent__ie--25 30s ease infinite forwards;
         animation-fill-mode: both;
     }
 }
 @media all and (-ms-high-contrast:none){
     .star:nth-child(26){
-        animation:starMovement__ie--26 90s ease infinite forwards;
+        animation:starMovement__ie--26 20s ease infinite forwards;
         animation-fill-mode: both;
     }
 
     .star:nth-child(26) *::-ms-backdrop,
     .star:nth-child(26){
-        animation: starMovent__ie--26 90s ease infinite forwards;
+        animation: starMovent__ie--26 20s ease infinite forwards;
         animation-fill-mode: both;
     }
 }
 @media all and (-ms-high-contrast:none){
     .star:nth-child(27){
-        animation:starMovement__ie--27 90s ease infinite forwards;
+        animation:starMovement__ie--27 15s ease infinite forwards;
         animation-fill-mode: both;
     }
 
     .star:nth-child(27) *::-ms-backdrop,
     .star:nth-child(27){
-        animation: starMovent__ie--27 90s ease infinite forwards;
+        animation: starMovent__ie--27 15s ease infinite forwards;
         animation-fill-mode: both;
     }
 }
 @media all and (-ms-high-contrast:none){
     .star:nth-child(28){
-        animation:starMovement__ie--28 90s ease infinite forwards;
+        animation:starMovement__ie--28 10s ease infinite forwards;
         animation-fill-mode: both;
     }
 
     .star:nth-child(28) *::-ms-backdrop,
     .star:nth-child(28){
-        animation: starMovent__ie--28 90s ease infinite forwards;
+        animation: starMovent__ie--28 10s ease infinite forwards;
         animation-fill-mode: both;
     }
 }
@@ -684,26 +683,26 @@ html{
 
 @media all and (-ms-high-contrast:none){
     .star:nth-child(29){
-        animation:starMovement__ie--29 90s ease infinite forwards;
+        animation:starMovement__ie--29 25s ease infinite forwards;
         animation-fill-mode: both;
     }
 
     .star:nth-child(29) *::-ms-backdrop,
     .star:nth-child(29){
-        animation: starMovent__ie--29 90s ease infinite forwards;
+        animation: starMovent__ie--29 25s ease infinite forwards;
         animation-fill-mode: both;
     }
 }
 
     @media all and (-ms-high-contrast:none){
     .star:nth-child(30){
-        animation:starMovement__ie--30 90s ease infinite forwards;
+        animation:starMovement__ie--30 35s ease infinite forwards;
         animation-fill-mode: both;
     }
 
     .star:nth-child(30) *::-ms-backdrop,
     .star:nth-child(30){
-        animation: starMovent__ie--30 90s ease infinite forwards;
+        animation: starMovent__ie--30 35s ease infinite forwards;
         animation-fill-mode: both;
     }
 }
