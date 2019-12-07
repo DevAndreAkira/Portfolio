@@ -218,8 +218,6 @@ td{
 }
 
 
-
-
 @media (max-width: 1190px)
 {
     h4{
@@ -268,7 +266,7 @@ td{
 {
     p{
         padding: 20px;
-        font-size: 14px;
+        font-size: 15px;
     }
     div#conteudos{
         margin-bottom: 30px;
