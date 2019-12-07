@@ -77,11 +77,8 @@ div#slider {
     height: 220px;
     color: white;
     /* margin-left: 200px; */
-    padding-top: 20px;
     display: flex;
     justify-content: space-evenly;
-    padding-top: 30px;
-    padding-bottom: 30px;
 }
 
 div#slider .grupopiano{
@@ -186,35 +183,7 @@ div.hobbies{
 }
 /************************* FIM slider *******************************/
 
-#foto1 {
-    background-image: url(../img/piano.png);
-    background-size: cover;
-}
-#foto2{
-    background-image: url(../img/rpg.png);
-    background-size: cover;
-}
-#foto3{
-    background-image: url(../img/baralho.png);
-    background-size: cover;
-}
-#foto4{
-    background-image: url(../img/gatinho-feliz-2.jpg);
-    background-size: cover;
-}
-#foto5{
-    background-image: url(../img/cerveja.png);
-    background-size: cover;
-}
 
-
-#informacoes {
-    height: 320px;
-    background-color: rgb(41, 0, 0);
-    text-align: center;
-    color: white;
-    font-size: 12px;
-}
 
 
 
@@ -222,14 +191,12 @@ div.hobbies{
     height: 100%;
     background-color: black;
 }
-
 p {
     margin: 0px;
     padding: 40px;
     width: 40%;
     float: left;
 }
-
 table{
     margin: auto;
     width: 70%;
@@ -239,7 +206,6 @@ table{
 td{
     border: 1px solid black;
 }
-
 #copy{
     color: white;
     font-size: 12px;
@@ -259,7 +225,6 @@ td{
     h4{
         font-size: 30px;
     }
-
     p{
         font-size: 18px;
     }
@@ -290,7 +255,6 @@ td{
     #slider h2{
         font-size: 20px;
     }
-
 }
 
 @media (max-width: 850px)
@@ -309,7 +273,6 @@ td{
     div#conteudos{
         margin-bottom: 30px;
     }
-
 }
 
 @media (max-width:650px)
@@ -330,28 +293,23 @@ td{
     }
     div#conteudos{
         margin-bottom: 40px;
-}
+    }
     #slider h2{
         font-size: 14px;
     }
     div#copy{
         height: 60px;
     }
-
 }
 
 @media (max-width:530px)
 {
-
-
-
     h2{
         font-size: 12px;
     }
     h1{
         font-size: 24px;
     }
-
     #conteudos p{
         padding: 10px;
     }
@@ -361,8 +319,6 @@ td{
     h5{
         font-size:10px;
     }
-
-
 }
 
 @media (max-width:440px)
