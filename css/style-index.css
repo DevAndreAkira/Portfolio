@@ -60,6 +60,12 @@ h4{
     margin-bottom: 10px;
 }
 
+h5{
+    font-size: 12px;
+    padding-top: 3%;
+    padding-left: 3%;
+}
+
 #cabecalho div.letrinhas{
     display: flex;
     justify-content: center;
@@ -80,25 +86,25 @@ div#slider {
 
 div#slider .grupopiano{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
 }
 div#slider .gruporpg{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
 }
 div#slider .grupogames{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
 }
 div#slider .grupotrilha{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
 }
@@ -210,36 +216,10 @@ div.hobbies{
     font-size: 12px;
 }
 
-.informacoes{
-    width: 25%;
-    height: 80%;
-    /*background-color: darkgreen;*/
-    display: block;
-    float: left;
-    margin-bottom: 30px;
-}
-#informacoes p{
-    height: 260px;
-}
-
-#informacoes h2, #informacoes p{
-    background:linear-gradient(to bottom, rgb(134, 0, 0), rgb(0, 0, 0));
-    margin: 5px;
-    box-shadow: 3px 3px rgb(148, 0, 0);
-    border: unset;
-    width: unset;
-    padding: 1%;
-    border-radius: unset;
-    font-size: 12px;
-}
-
-#informacoes p{
-    background-color: rgb(212, 0, 0);
-}
 
 
 #copy {
-    height: 100px;
+    height: 100%;
     background-color: black;
 }
 
@@ -272,11 +252,7 @@ td{
 }
 
 
-@media (max-width: 1286px){
-    #informacoes p{
-        font-size: 10px;
-    }
-}
+
 
 @media (max-width: 1190px)
 {
@@ -285,14 +261,14 @@ td{
     }
 
     p{
-        font-size: 14px;
+        font-size: 18px;
     }
 }
 
 @media (max-width: 1110px)
 {
     p{
-        font-size: 12px;
+        font-size: 16px;
     }
     #logotipo img{
         width: 150px;
@@ -315,12 +291,6 @@ td{
         font-size: 20px;
     }
 
-    div#depoimentos{
-        height: 200px;
-    }
-    #depoimentos h2{
-        font-size: 18px;
-    }
 }
 
 @media (max-width: 850px)
@@ -334,11 +304,9 @@ td{
 {
     p{
         padding: 20px;
-        font-size: 10px;
+        font-size: 14px;
     }
-    #informacoes p{
-        font-size: 8px;
-    }
+
 }
 
 @media (max-width:650px)
@@ -361,32 +329,17 @@ td{
     #slider h2{
         font-size: 14px;
     }
-    #informacoes h2{
-        font-size: 10px;
-
+    div#copy{
+        height: 60px;
     }
+
 }
 
 @media (max-width:530px)
 {
-    div#slider{
-        height: 100px;
-    }
-    #slider div.imgdepoimento{
-        width: 80px;
-        height: 80px;
-    }
 
-    div#depoimentos{
-        height: 170px;
-    }
-    #depoimentos img{
-        width: 80px;
-        height: 80px;
-    }
-    #depoimentos h2{
-        font-size: 14px;
-    }
+
+
     h2{
         font-size: 12px;
     }
@@ -396,13 +349,14 @@ td{
     #conteudos p{
         padding: 10px;
     }
-    
-    #informacoes p{
-        font-size: 7px;
+    p{
+        font-size:12px;
     }
-    #informacoes h2{
-        font-size: 9px;
+    h5{
+        font-size:10px;
     }
+
+
 }
 
 @media (max-width:440px)
@@ -428,13 +382,8 @@ td{
         width: 50px;
         height: 50px;
     }
-
-    #informacoes h2{
-        font-size: 7px;
-    }
-
-    #informacoes p{
-        font-size: 6px;
+    h5{
+        font-size:9px;
     }
     h1{
         font-size: 20px;
@@ -450,10 +399,10 @@ td{
 
 @media (max-width:350px)
 {
-    #informacoes h2{
-        font-size: 6px;
-    }
 
+    h5{
+        font-size:8px;
+    }
     #slider div.imgdepoimento{
         width: 50px;
         height: 50px;

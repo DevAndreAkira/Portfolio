@@ -1425,3 +1425,7 @@ html{
           }
        }
          /* CREDITOS DA ANIMAÇÃO: PROFESSOR MARCO DE FREITAS - SENAC SANTANA  */
+
+         @media(max-width:530px){
+            div.boxstars{height: 80%;}
+         }
