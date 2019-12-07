@@ -306,6 +306,9 @@ td{
         padding: 20px;
         font-size: 14px;
     }
+    div#conteudos{
+        margin-bottom: 10px;
+    }
 
 }
 
@@ -325,7 +328,9 @@ td{
     #cabecalho{
         height: 50px;
     }
-
+    div#conteudos{
+        margin-bottom: 40px;
+}
     #slider h2{
         font-size: 14px;
     }
@@ -346,9 +351,7 @@ td{
     h1{
         font-size: 24px;
     }
-    #conteudos{
-        margin-bottom: auto;
-    }
+
     #conteudos p{
         padding: 10px;
     }
