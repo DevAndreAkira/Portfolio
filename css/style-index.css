@@ -41,7 +41,6 @@ h1{
     font-size: 80px;
     margin-left: 10px;
     color: white;
-    margin-left: 50px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,11 +112,11 @@ div#slider .grupotrilha{
 
 
 #conteudos {
-    min-height: 300px;
+    height: 500px;
     color: black;
     padding: 25px;
     overflow: visible;
-    font-size: 20px;
+    font-size: 26px;
     font-weight: bold;
     color: white;
     margin-bottom: 70px;
@@ -213,18 +212,21 @@ td{
 
 @media (max-width: 1190px)
 {
+    h2{
+        font-size: 36px;
+    }
     h4{
         font-size: 30px;
     }
     p{
-        font-size: 18px;
+        font-size: 24px;
     }
 }
 
 @media (max-width: 1110px)
 {
     p{
-        font-size: 16px;
+        font-size: 22px;
     }
     #logotipo img{
         width: 150px;
@@ -236,113 +238,120 @@ td{
     h2{
         font-size: 30px;
     }
-    div#slider{
-        height: 150px;
-    }
-    #slider div.imgdepoimento {
-        height: 100px;
-        width: 100px;
-    }
-    #slider h2{
+
+}
+
+@media (max-width:900px){
+    p{
         font-size: 20px;
     }
-}
-
-@media (max-width: 850px)
-{
-    p{
-        padding: 30px;
+    #logotipo img{
+        width: 180px;
+        height: 180px;
     }
-}
-
-@media (max-width:800px)
-{
-    p{
-        padding: 20px;
-        font-size: 15px;
-    }
-    div#conteudos{
-        margin-bottom: 30px;
-    }
-}
-
-@media (max-width:650px)
-{
     h1{
-        font-size: 30px;
-        margin: unset;
+        font-size: 50px;
     }
     h2{
-        font-size: 15px;
+        font-size: 26px;
     }
-    #logotipo img{
+}
+
+@media (max-width:850px)
+{
+    p{
+        font-size: 20px;
+        padding: 20px;
+    }
+    #slider div.imgdepoimento{
+        width: 120px;
+        height: 120px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 22px;
+    }
+}
+
+@media (max-width:680px)
+{
+    p{
+        font-size: 18px;
+        padding: 19px;
+    }
+    #slider div.imgdepoimento{
         width: 100px;
         height: 100px;
     }
-    #cabecalho{
-        height: 50px;
+    h1{
+        font-size: 34px;
     }
-    div#conteudos{
-        margin-bottom: 40px;
-    }
-    #slider h2{
-        font-size: 14px;
+    h2{
+        font-size: 18px;
     }
 }
 
 @media (max-width:530px)
 {
+    p{
+        font-size: 18px;
+        padding: 18px;
+    }
+    #slider div.imgdepoimento{
+        width: 100px;
+        height: 100px;
+    }
+    h1{
+        font-size: 32px;
+    }
     h2{
-        font-size: 12px;
+        font-size: 17px;
+    }
+}
+
+
+@media (max-width:500px)
+{
+    p{
+        font-size: 16px;
+        padding: 16px;
+    }
+    #slider div.imgdepoimento{
+        width: 80px;
+        height: 80px;
     }
     h1{
         font-size: 24px;
     }
-    #conteudos p{
-        padding: 10px;
-    }
-    p{
-        font-size:12px;
-    }
-    h5{
-        font-size:10px;
+    h2{
+        font-size: 12px;
     }
 }
 
-@media (max-width:440px)
+@media (max-width:450px)
 {
+    #logotipo img{
+        height: 150px;
+        width: 150px;
+    }
+    p{
+        font-size: 14px;
+        padding: 14px;
+    }
     #slider div.imgdepoimento{
-        width: 60px;
-        height: 60px;
-    }
-    #slider h2{
-        font-size: 10px;
-    }
-    h5{
-        font-size:9px;
+        width: 80px;
+        height: 80px;
     }
     h1{
         font-size: 20px;
     }
     h2{
-        font-size: 10px;
-    }
-    p{
-        font-size: 9px;
-    }
-
-}
-
-@media (max-width:360px)
-{
-    div#conteudos{
-        margin-bottom: 0px;
-        min-height: 260px;
-    }
-    div#copy{
-        padding: 4%;
+        font-size: 12px;
     }
 }
+
 
 
 @media (max-width:350px)
