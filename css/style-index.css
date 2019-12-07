@@ -62,8 +62,6 @@ h4{
 
 h5{
     font-size: 12px;
-    padding-top: 3%;
-    padding-left: 3%;
 }
 
 #cabecalho div.letrinhas{
@@ -133,10 +131,6 @@ div#slider .grupotrilha{
     padding-bottom: 30px;
 }
 
-
-
-#depoimentos img, 
-/*#informacoes div.imgdepoimento,*/
 #slider div.imgdepoimento {
     height: 100px;
     width: 100px;
@@ -188,8 +182,8 @@ div.hobbies{
 
 
 #copy {
-    height: 100%;
     background-color: black;
+    padding: 2%;
 }
 p {
     margin: 0px;
@@ -209,7 +203,6 @@ td{
 #copy{
     color: white;
     font-size: 12px;
-    height: 100px;
     background-color: black;
 }
 #copy .semifuna{
@@ -295,9 +288,6 @@ td{
     #slider h2{
         font-size: 14px;
     }
-    div#copy{
-        height: 60px;
-    }
 }
 
 @media (max-width:530px)
@@ -328,20 +318,6 @@ td{
     #slider h2{
         font-size: 10px;
     }
-
-    div#depoimentos{
-        height: 100px;
-    }
-    #depoimentos h4{
-        font-size: 16px;
-    }
-    #depoimentos h2{
-        font-size: 10px;
-    }
-    #depoimentos img{
-        width: 50px;
-        height: 50px;
-    }
     h5{
         font-size:9px;
     }
@@ -356,6 +332,18 @@ td{
     }
 
 }
+
+@media (max-width:360px)
+{
+    div#conteudos{
+        margin-bottom: 0px;
+        min-height: 260px;
+    }
+    div#copy{
+        padding: 4%;
+    }
+}
+
 
 @media (max-width:350px)
 {
