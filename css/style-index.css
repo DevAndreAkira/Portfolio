@@ -116,9 +116,10 @@ div#slider .grupotrilha{
     color: black;
     padding: 25px;
     overflow: visible;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     color: white;
+    margin-bottom: 70px;
 }
 
 #depoimentos {
@@ -261,20 +262,15 @@ td{
 
 #copy{
     color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     font-size: 12px;
+    height: 100px;
+    background-color: black;
 }
 #copy .semifuna{
     display: flex;
     justify-content: flex-start;
 }
-#copy .final{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
+
 
 @media (max-width: 1286px){
     #informacoes p{
