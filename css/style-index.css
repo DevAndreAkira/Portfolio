@@ -153,3 +153,61 @@ p{
 #texto{
     width: unset;
 }
+
+div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+@media (max-width:950px){
+    #group{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:710px){
+    h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:480px){
+    #container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    }
+
+    li{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+
+    ul{
+        width: auto;
+    }
+
+    #back{
+        display: flex;
+        flex-direction: row;
+        margin-left: 25px;
+    }
+
+    #front{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    #pj{
+        display: flex;
+        flex-direction: column;
+    }
+}
