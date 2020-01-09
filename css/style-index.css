@@ -1,374 +1,155 @@
-* {
-    font-family: 'Titillium Web', sans-serif;
+*{
     margin: 0;
     padding: 0;
-}
-body{
-    font-size: 1.2em;
-    background:linear-gradient(to bottom, rgb(0, 0, 0), rgb(33, 0, 87));
+    font-family: 'Courier', sans-serif;
 }
 
-
-/* aqui começa CSS para o navegador */
-
-#cabecalho {
-    height: 180px;
-    text-align: left;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 30px;
+img{
+    height: 90px;
+    width: 70px;
+    margin-bottom: 5px;
 }
 
-#logo{
-    height: 200px;
-    width: 200px;
+img#front{
+    height: 70px;
+    width: 50px;
+    margin-bottom: 5px;
+}
+
+img#csharp{
+    width: 140px;
+    height: 140px;
+}
+
+img#asp{
+    width: 70px;
+    height: 70px;
+}
+
+img#asp1{
+    width: 90px;
+    height: 90px;
+}
+
+img#mvc{
+    width: 150px;
+    height: 100px;
+}
+
+img#ps{
+    width: 50px;
+    height: 50px;
+}
+
+img#xd{
+    width: 50px;
+    height: 50px;
+}
+
+img#vsc{
+    width: 50px;
+    height: 50px;
+}
+
+img#sublime{
+    width: 90px;
+    height: 90px;
+}
+
+img#sublime1{
+    width: 50px;
+    height: 50px;
+}
+
+
+a:hover{
+    background: white;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 50%;
+}
+
+nav{
     background-color: black;
-    float: left;
+    box-shadow: 5px 5px 5px grey;
 }
 
-img, #logo{
-    height: 180px;
-    width: 180px;
-    
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 500px;
 }
-#logotipo{
-    margin: 30px;
+
+li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+#container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1{
-    font-size: 80px;
-    margin-left: 10px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-h2{
-    color: white;
-}
-
-h3{
-    margin-left: 10px;
-}
-h4{
-
-    color: white;
-    font-size: 35px;
-    margin-bottom: 10px;
-}
-
-h5{
-    font-size: 12px;
-}
-
-#cabecalho div.letrinhas{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-div#slider {
-    height: 220px;
-    color: white;
-    /* margin-left: 200px; */
-    display: flex;
-    justify-content: space-evenly;
-}
-
-div#slider .grupopiano{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-div#slider .gruporpg{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-div#slider .grupogames{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-div#slider .grupotrilha{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-
-
-.tatuagem{
-    margin-left: 12px;
-}
-
-
-
-#conteudos {
-    height: 500px;
-    color: black;
-    padding: 25px;
-    overflow: visible;
-    font-size: 26px;
-    font-weight: bold;
-    color: white;
-    margin-bottom: 70px;
-}
-
-#depoimentos {
-    height: 220px;
-    background:linear-gradient(to bottom, rgb(0, 0, 0), rgb(2, 0, 95));
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-#slider div.imgdepoimento {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    margin: 0% auto;
-    text-align: center;
-    background-size: cover;
-    background-position: center;
-    display: inline-block;
-    overflow: hidden;
-    text-align: center;
-}
-
-div.hobbies{
-    display: flex;
-    justify-content: space-around;
-    align-items: center; 
-    font-size: 20px;
-}
-
-/*#slider div.imgdepoimento img{
-    height: 120px;
-    width: 120px;
-}*/
-
-#slider p{
-    padding: 0;
+    color: whitesmoke;
+    display: block;
     margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
 }
 
-#slider h1{
+h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 3px grey;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.end{
+    margin-left: 20px;
+}
+
+main{
+    margin: 20px;
+}
+
+h1{
     font-size: 50px;
 }
 
-/***************************slider*******************************/ 
-#slider div.imgdepoimento{
-    height: 150px;
-    width: 150px;
+p{
+    font-size: 20px;
 }
 
-#slider div.imgdepoimento img{
-    height: 100%;
-    width: 100%;
-}
-/************************* FIM slider *******************************/
-
-
-
-
-
-#copy {
-    background-color: black;
-    padding: 2%;
-}
-p {
-    margin: 0px;
-    padding: 40px;
-    width: 40%;
-    float: left;
-}
-table{
-    margin: auto;
-    width: 70%;
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-td{
-    border: 1px solid black;
-}
-#copy{
-    color: white;
-    font-size: 12px;
-    background-color: black;
-}
-#copy .semifuna{
-    display: flex;
-    justify-content: flex-start;
+.end{
+    font-size: 10px;
 }
 
-
-@media (max-width: 1190px)
-{
-    h2{
-        font-size: 36px;
-    }
-    h4{
-        font-size: 30px;
-    }
-    p{
-        font-size: 24px;
-    }
-}
-
-@media (max-width: 1110px)
-{
-    p{
-        font-size: 22px;
-    }
-    #logotipo img{
-        width: 150px;
-        height: 150px;
-    }
-    h1{
-        font-size: 60px;
-    }
-    h2{
-        font-size: 30px;
-    }
-
-}
-
-@media (max-width:900px){
-    p{
-        font-size: 20px;
-    }
-    #logotipo img{
-        width: 180px;
-        height: 180px;
-    }
-    h1{
-        font-size: 50px;
-    }
-    h2{
-        font-size: 26px;
-    }
-}
-
-@media (max-width:850px)
-{
-    p{
-        font-size: 20px;
-        padding: 20px;
-    }
-    #slider div.imgdepoimento{
-        width: 120px;
-        height: 120px;
-    }
-    h1{
-        font-size: 50px;
-    }
-    h2{
-        font-size: 22px;
-    }
-}
-
-@media (max-width:680px)
-{
-    p{
-        font-size: 18px;
-        padding: 19px;
-    }
-    #slider div.imgdepoimento{
-        width: 100px;
-        height: 100px;
-    }
-    h1{
-        font-size: 34px;
-    }
-    h2{
-        font-size: 18px;
-    }
-}
-
-@media (max-width:530px)
-{
-    p{
-        font-size: 18px;
-        padding: 18px;
-    }
-    #slider div.imgdepoimento{
-        width: 100px;
-        height: 100px;
-    }
-    h1{
-        font-size: 32px;
-    }
-    h2{
-        font-size: 17px;
-    }
-}
-
-
-@media (max-width:500px)
-{
-    p{
-        font-size: 16px;
-        padding: 16px;
-    }
-    #slider div.imgdepoimento{
-        width: 80px;
-        height: 80px;
-    }
-    h1{
-        font-size: 24px;
-    }
-    h2{
-        font-size: 12px;
-    }
-}
-
-@media (max-width:450px)
-{
-    #logotipo img{
-        height: 150px;
-        width: 150px;
-    }
-    p{
-        font-size: 14px;
-        padding: 14px;
-    }
-    #slider div.imgdepoimento{
-        width: 80px;
-        height: 80px;
-    }
-    h1{
-        font-size: 20px;
-    }
-    h2{
-        font-size: 12px;
-    }
-}
-
-
-
-@media (max-width:350px)
-{
-
-    h5{
-        font-size:8px;
-    }
-    #slider div.imgdepoimento{
-        width: 50px;
-        height: 50px;
-    }
-    #slider h2{
-        font-size: 9px;
-    }
-
-    p{
-        font-size: 8px;
-    }
+#texto{
+    width: unset;
 }
