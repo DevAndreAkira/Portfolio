@@ -133,6 +133,9 @@ footer{
 
 .end{
     margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: start;
 }
 
 main{
