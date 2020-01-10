@@ -61,14 +61,17 @@ img#sublime1{
     height: 50px;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 a:hover{
-    background: white;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    border-radius: 50%;
+    text-decoration: underline;
 }
 
 nav{
