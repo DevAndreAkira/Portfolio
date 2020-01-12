@@ -17,8 +17,8 @@ img#front{
 }
 
 img#csharp{
-    width: 140px;
-    height: 140px;
+    width: 90px;
+    height: 90px;
 }
 
 img#asp{
@@ -32,8 +32,8 @@ img#asp1{
 }
 
 img#mvc{
-    width: 150px;
-    height: 100px;
+    width: 100px;
+    height: 90px;
 }
 
 img#ps{
@@ -156,15 +156,105 @@ p{
 
 div{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+}
+
+/* SKILLLLLLLLLLLLLLLLLLLLLLLLLLLL */
+
+
+.skillBox{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 20px;
+    display: block;
+}
+
+
+.skillBox p:nth-child(2){
+    position: relative;
+}
+
+.skill{
+    padding: 4px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: black;
+    width: 150px;
+}
+
+.skill_level{
+    background-color: orangered;
+    width: 100%;
+    height: 10px;
+}
+
+.skill_levelcss{
+    background-color: dodgerblue;
+    width: 100%;
+    height: 10px;
+}
+
+.skill_leveljs{
+    background-color: gold;
+    width: 100%;
+    height: 10px;
+}
+
+.skill_levelcsharp{
+    background-color: darkviolet;
+    width: 100%;
+    height: 10px;
+}
+
+.skill_levelasp{
+    background-color: indigo;
+    width: 100%;
+    height: 10px;
+}
+
+.skill_levelmvc{
+    background-color: palegreen;
+    width: 100%;
+    height: 10px;
+}
+
+.skill_levelgit{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 10px;
+}
+
+.skill_levelps{
+    background-color: royalblue;
+    width: 100%;
+    height: 10px;
+}
+
+.skill_levelxd{
+    background-color: purple;
+    width: 100%;
+    height: 10px;
+}
+
+.skill_levelvsc{
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 10px;
+}
+
+.skill_levelsub{
+    background-color: grey;
+    width: 100%;
+    height: 10px;
 }
 
 
 
-@media (max-width:950px){
+@media (max-width:1150px){
     #group{
         display: flex;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
     }
 }
@@ -176,6 +266,10 @@ div{
 }
 
 @media (max-width:600px){
+    .skillBox{
+        text-align: -webkit-center;
+    }
+
     #container{
     display: flex;
     justify-content: space-between;
@@ -210,5 +304,20 @@ div{
     #pj{
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media (max-width:580px){
+    div{
+        display: unset;
+    }
+
+    div.skill{
+        display: flex;
+    }
+
+    #back{
+        display: unset;
+        margin-left: 0;
     }
 }
