@@ -183,67 +183,67 @@ div{
 }
 
 .skill_level{
-    background-color: orangered;
+    background-image: linear-gradient(65deg, black, orangered);
     width: 100%;
     height: 10px;
 }
 
 .skill_levelcss{
-    background-color: dodgerblue;
+    background-image: linear-gradient(65deg, black, dodgerblue);
     width: 100%;
     height: 10px;
 }
 
 .skill_leveljs{
-    background-color: gold;
+    background-image: linear-gradient(65deg, black, gold);
     width: 100%;
     height: 10px;
 }
 
 .skill_levelcsharp{
-    background-color: darkviolet;
+    background-image: linear-gradient(65deg, black, darkviolet);
     width: 100%;
     height: 10px;
 }
 
 .skill_levelasp{
-    background-color: indigo;
+    background-image: linear-gradient(65deg, black, indigo);
     width: 100%;
     height: 10px;
 }
 
 .skill_levelmvc{
-    background-color: palegreen;
+    background-image: linear-gradient(65deg, black, palegreen);
     width: 100%;
     height: 10px;
 }
 
 .skill_levelgit{
-    background-color: whitesmoke;
+    background-image: linear-gradient(65deg, black, whitesmoke);
     width: 100%;
     height: 10px;
 }
 
 .skill_levelps{
-    background-color: royalblue;
+    background-image: linear-gradient(65deg, black, royalblue);
     width: 100%;
     height: 10px;
 }
 
 .skill_levelxd{
-    background-color: purple;
+    background-image: linear-gradient(65deg, black, purple);
     width: 100%;
     height: 10px;
 }
 
 .skill_levelvsc{
-    background-color: cornflowerblue;
+    background-image: linear-gradient(65deg, black, cornflowerblue);
     width: 100%;
     height: 10px;
 }
 
 .skill_levelsub{
-    background-color: grey;
+    background-image: linear-gradient(65deg, black, grey);
     width: 100%;
     height: 10px;
 }
