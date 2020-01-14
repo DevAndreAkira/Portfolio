@@ -149,8 +149,13 @@ main{
     margin: 20px;
 }
 
+p#intro{
+    text-align: start;
+}
+
 p{
     font-size: 20px;
+    text-align: center;
 }
 
 .end{
