@@ -1,353 +1,350 @@
 *{
-    margin: 0;
     padding: 0;
-    font-family: 'Courier', sans-serif;
+    margin: 0;
+    font-family: 'Clear Sans', sans-serif;
+    background-color: #F8F8F8;
+    color: black;
 }
 
-img{
-    height: 90px;
-    width: 70px;
-    margin-bottom: 5px;
-}
+@font-face{
+    font-family: 'Space Mono';
+    src: url(../fonts/SpaceMono-Regular.ttf);
+    src: url(../fonts/SpaceMono-Bold.ttf.ttf);
 
-img#front{
-    height: 70px;
-    width: 50px;
-    margin-bottom: 5px;
-}
-
-#respiracao{
-    height: 70px;
-    width: 70px;
-    margin-bottom: 5px;
-
-}
-
-img#csharp{
-    width: 90px;
-    height: 90px;
-}
-
-img#asp{
-    width: 70px;
-    height: 70px;
-}
-
-img#asp1{
-    width: 90px;
-    height: 90px;
-}
-
-img#mvc{
-    width: 100px;
-    height: 90px;
-}
-
-img#ps{
-    width: 50px;
-    height: 50px;
-}
-
-img#xd{
-    width: 50px;
-    height: 50px;
-}
-
-img#vsc{
-    width: 50px;
-    height: 50px;
-}
-
-img#sublime{
-    width: 90px;
-    height: 90px;
-}
-
-img#sublime1{
-    width: 50px;
-    height: 50px;
+    font-family: 'Clear Sans';
+    src: url(../fonts/ClearSans-Regular.ttf);
 }
 
 a{
     text-decoration: none;
-    color: white;
+}
+
+header{
+    display: grid;
+}
+
+.space{
+    font-family: 'Space Mono', sans-serif;
+}
+
+span{
+    color: #57478f;
+    margin: 20px;
+}
+
+.roxo{
+    color: #57478f;
+}
+
+.icones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 60px;
+    top: 220px;
+}
+
+.flexbox{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-a:hover{
-    text-decoration: underline;
+.flexbox-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
-
-nav{
-    background-color: black;
-    box-shadow: 5px 5px 5px grey;
-}
-
 
 ul{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     list-style: none;
-    width: 500px;
+    display: inline-block;
+}
+
+li, h2{
+    margin: 20px;
+    display: inline-block;
 }
 
 li{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-decoration: none;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-bottom: 15px;
-    padding-top: 15px;
+    color: #8A8A8A;
 }
 
-#container{
+nav{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
+    margin: 40px;
 }
 
 h1{
-    color: whitesmoke;
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    font-size: 50px;
-}
-
-h3{
-    color: whitesmoke;
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    font-size: 50px;
-}
-
-h2{
+    font-size: 70px;
+    margin: 40px;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-footer{
-    background-color: black;
-    color: white;
-    box-shadow: 0px 0px 3px grey;
-    height: 50px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.end{
-    margin-left: 20px;
-}
-
-main{
-    margin: 20px;
-}
-
-p#intro{
-    text-align: start;
 }
 
 p{
-    font-size: 20px;
+    font-size: 16px;
+    color: #8A8A8A;
     text-align: center;
-}
-
-.end{
-    font-size: 10px;
-}
-
-#texto{
-    width: unset;
-}
-
-div{
-    display: flex;
-}
-
-/* SKILLLLLLLLLLLLLLLLLLLLLLLLLLLL */
-
-
-.skillBox{
-    box-sizing: border-box;
-    width: 100%;
     margin: 20px;
+}
+
+.contato{
+    border: solid, #57478f;
+    background-color: #57478f;
+    margin: 0;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+section{
+    display: flex;
+    margin: 30px;
+    justify-content: space-evenly;
+}
+
+.circle{
+    width: 40px;
+    height: 40px;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.circle-small{
+    min-width: 15px;
+    min-height: 15px;
+    border: solid 3px #57478f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.none{
+    margin: 0;
+    padding-left: 0;
+}
+
+.blacl{
+    color: black;
+}
+
+.text-start{
+    text-align: start;
+}
+
+.text{
+    margin: 20px;
+}
+
+.flex-start{
+    justify-content: flex-start;
+    align-items: baseline;
+    margin: 5px;
+}
+
+.align-center{
+    align-items: center;
+    margin: 20px;
+    margin-left: 80px;
+}
+
+img{
+    margin: 40px;
+    border-radius: 20px;
+}
+
+.img-small{
+    width: 100px;
+    height: 100px;
+}
+
+.fundo-cinza{
+    background-color: #EBEBEB;
+}
+
+.areas{
+    background-color: #EBEBEB;
+    margin: 0;
+    padding: 65px;
     display: block;
 }
 
-
-.skillBox p:nth-child(2){
-    position: relative;
+.text-center{
+    text-align: center;
 }
 
-.skill{
-    padding: 4px;
-    box-sizing: border-box;
-    border: 1px solid black;
-    border-radius: 20px;
-    background-color: black;
-    width: 150px;
+.bloquinho{
+    min-width: 200px;
+    height: 250px;
+    border-radius: 5px;
+    box-shadow: -10px 10px 10px rgb(170, 170, 170);
+    text-align: center;
+    margin: 22px;
 }
 
-.skill_level{
-    background-image: linear-gradient(65deg, black, orangered);
-    width: 100%;
-    height: 10px;
+.linha{
+    display: block;
+    background-color: #57478f;
+    border: solid;
+    border-radius: 0 0 0 20px;
+    margin-left: 50%;
 }
 
-.skill_levelcss{
-    background-image: linear-gradient(65deg, black, dodgerblue);
-    width: 100%;
-    height: 10px;
+h4{
+    font-size: 24px;
 }
 
-.skill_leveljs{
-    background-image: linear-gradient(65deg, black, gold);
-    width: 100%;
-    height: 10px;
+.bloco1{
+    background-color: #FFEF61;
+    border: solid #FFEF61;
 }
 
-.skill_levelcsharp{
-    background-image: linear-gradient(65deg, black, darkviolet);
-    width: 100%;
-    height: 10px;
+.bloco2{
+    background-color: #6EFFC5;
+    border: solid #6EFFC5;
+
 }
 
-.skill_levelasp{
-    background-image: linear-gradient(65deg, black, indigo);
-    width: 100%;
-    height: 10px;
+.bloco3{
+    background-color: #FFA694;
+    border: solid #FFA694;
+
 }
 
-.skill_levelmvc{
-    background-image: linear-gradient(65deg, black, palegreen);
-    width: 100%;
-    height: 10px;
+.space-evenly{
+    justify-content: space-evenly;
 }
 
-.skill_levelgit{
-    background-image: linear-gradient(65deg, black, whitesmoke);
-    width: 100%;
-    height: 10px;
-}
-
-.skill_levelps{
-    background-image: linear-gradient(65deg, black, royalblue);
-    width: 100%;
-    height: 10px;
-}
-
-.skill_levelxd{
-    background-image: linear-gradient(65deg, black, purple);
-    width: 100%;
-    height: 10px;
-}
-
-.skill_levelvsc{
-    background-image: linear-gradient(65deg, black, cornflowerblue);
-    width: 100%;
-    height: 10px;
-}
-
-.skill_levelsub{
-    background-image: linear-gradient(65deg, black, grey);
-    width: 100%;
-    height: 10px;
-}
-
-
-
-@media (max-width:1150px){
-    #group{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-}
-
-@media (max-width:710px){
-    h1{
-        font-size: 30px;
-    }
-}
-
-@media (max-width:600px){
-    .skillBox{
-        text-align: -webkit-center;
-        margin: 0;
-    }
-
-    #container{
-    display: flex;
+.space-between{
     justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    }
-
-    li{
-        margin-bottom: unset;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-bottom: unset;
-    }
-
-    h1{
-        font-size: 24px;
-        margin-left: 5px;
-    }
-
-    ul{
-        width: auto;
-    }
-
-    #back{
-        display: flex;
-        flex-direction: row;
-        margin-left: 25px;
-    }
-
-    #ultima_lista{
-        margin-bottom: 15px;
-        padding: 15px;
-
-    }
-
-    #front{
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-    #pj{
-        display: flex;
-        flex-direction: column;
-    }
 }
 
-@media (max-width:600px){
-    div{
-        display: unset;
-    }
+.space-around{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+    height: 200px;
+}
 
-    div.skill{
-        display: flex;
-    }
+.circle-medium, .contorno{
+    width: 80px;
+    height: 80px;
+    box-shadow: -3px -3px 5px #ffffff,
+    3px 3px 5px #a8a8a8;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
 
-    #back{
-        display: unset;
-        margin-left: 0;
-    }
+.circle-medium:active{
+    box-shadow: inset -3px -3px 5px #ffffff, inset 3px 3px 5px #a8a8a8;
+    text-align: -webkit-center;
+}
+
+.circle-medium:active > .contorno{
+    min-width: 75px;
+    height: 75px;
+    box-shadow: inset -3px -3px 5px #ffffff, inset 3px 3px 5px #a8a8a8;
+
+}
+
+.circle-medium:active > .contorno > .icons-medium{
+    font-size: 45px;
+}
+
+.circle-medium:active > .contorno > .ux{
+    font-size: 15px;
+}
+
+.icons-medium{
+    font-size: 50px;
+}
+
+.margin-left{
+    margin-left: 40px;
+}
+
+.linguagens{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(100px, 1fr));
+    width: 200px;
+    margin: 30px;
+    margin-right: 150px;
+}
+
+.fundo-roxo{
+    background-color: #57478f;
+    color: white;
+}
+
+.padding{
+    padding: 20px;
+}
+
+.tamanho{
+    display: block;
+    width: 50%;
+    border-radius: 5px 5px 20px 5px;
+    padding: 20px;
+}
+
+.contato2{
+    border: solid, white;
+    background-color: white;
+    margin: 0;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    color: #57478f;
+}
+
+.ultima{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ux{
+    font-size: 16px;
+}
+
+td{
+    display: block;
+}
+
+tr{
+    padding: 20px;
+}
+
+tbody{
+
+    display: flex;
+    flex-direction: column;
+    width: -webkit-fill-available;    
+    font-size: 14px;
+    max-height: 30vh;
+    overflow-y: auto;
+    margin-top: 30px;    
+    padding: 20px;
+}
+
+.width{
+    width: 50%;
 }
