@@ -1,0 +1,696 @@
+*{
+  font-family: 'Share Tech Mono', monospace;
+  padding:0;
+  margin: 0;
+  box-sizing:border-box;
+  color:#0650e5;
+  text-align:center;
+}
+
+@font-face {
+  font-family: 'Share Tech Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/sharetechmono/v10/J7aHnp1uDWRBEqV98dVQztYldFcLowEFA87Heg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face
+{
+    font-family: 'FontAwesome_Dilip';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.6.1') format('embedded-opentype'),url('../fonts/fontawesome-webfont.woff2?v=4.6.1') format('woff2'),url('../fonts/fontawesome-webfont.woff?v=4.6.1') format('woff'),url('../fonts/fontawesome-webfont.ttf?v=4.6.1') format('truetype'),url('../fonts/fontawesome-webfont.svg?v=4.6.1#fontawesomeregular') format('svg');
+    src: url('../fonts/fontawesome-webfont.eot?v=4.6.1');
+}
+
+i{
+  font-family: "FontAwesome_Dilip", sans-serif;
+}
+
+.front{
+  z-index: 1000;
+}
+
+body{
+  background-image: url(../img/bg.webp);
+  width:100;
+  background-size: cover;
+  height:100%;
+  position: absolute;
+  top: 0;
+}
+
+.div1{
+  padding: 50px 80px;
+  width:100vw;
+  height:100vh;
+  background:rgba(3, 1, 15, 0.85);
+  background-image:linear-gradient(rgb(0,100,193,.15) .2vw, transparent .2vw), linear-gradient(90deg, rgb(0,100,193,.1) .2vw, transparent .2vw);
+  background-size:3vw 3vw;
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  padding-top: 50px;
+}
+
+body > div > section:nth-child(2){
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    width: 100%;
+}
+
+p{
+  font-size: 12px;
+}
+
+.dozesseis{
+  font-size: 16px;
+}
+
+h1{
+  font-size: 28px;
+}
+
+h2{
+  font-size: 2vw;
+}
+
+h2, .ciano{
+  color: #05C3C3;
+}
+
+.me{
+  width: 20vw;
+}
+
+.flex-between{
+  display: flex;
+  justify-content: space-between;
+}
+
+.align-initial{
+  text-align: initial;
+}
+
+.marginTop{
+  margin-top: 20px;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.width1{
+  width: 25%;
+}
+
+.bar{
+  width: 10vw;
+  height: 20px;
+  background: #05C3C3;
+  margin: 15px 5px;
+}
+
+.bar2{
+  width: 9.8vw;
+  height: 20px;
+  background: #0650e5;
+  margin: 15px 5px;
+}
+
+.flex-end{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sumaDaDaquiMeo{
+  visibility: hidden;
+}
+
+.project{
+  padding: .5vw 5vw;
+  color: #05C3C3;
+  border: solid 3px #05C3C3;
+  background: transparent;
+  border-radius: 100vw;
+  width: 26vw;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.project:hover{
+  padding: .5vw 5vw;
+  color: #030319;
+  border: solid 3px transparent;
+  background: #05C3C3;
+  border-radius: 100vw;
+  z-index: 999;
+  cursor: pointer;
+}
+
+button{
+  font-size: 20px;
+}
+
+.hex {
+    float: left;
+    margin-left: 3px;
+    margin-bottom: -12px;
+}
+
+.hex .top {
+    width: 0;
+    border-bottom: 14.43px solid #0650e5dc;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+}
+
+.hex .middle {
+    width: 50px;;
+    height: 28.87px;
+    background: #0650e5dc;
+}
+
+.hex .bottom {
+    width: 0;
+    border-top: 14.43px solid #0650e5dc;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+}
+
+.bottom.meio{
+    border-top: 14.43px solid #0650e59a;
+}
+.middle.meio{
+  background: #0650e59a;
+}
+.top.meio{
+  border-bottom: 14.43px solid #0650e59a;
+}
+
+.bottom.vinte{
+    border-top: 14.43px solid #0650e559;
+}
+.middle.vinte{
+  background: #0650e559;
+}
+.top.vinte{
+  border-bottom: 14.43px solid #0650e559;
+}
+
+.bottom.ciano{
+    border-top: 14.43px solid #05C3C3;
+}
+.middle.ciano{
+  background: #05C3C3;
+}
+.top.ciano{
+  border-bottom: 14.43px solid #05C3C3;
+}
+
+.hex-row {
+    clear: left;
+}
+.hex-row.even {
+    margin-left: -26px;
+}
+
+.tree{
+  float: left;
+  z-index: 998;
+  width: 140px;
+  margin-left: 30px;
+  cursor: pointer;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.label{
+  padding: .2vw 2vw;
+  border: solid #0650e5 .2vw;
+  width: fit-content;
+  border-radius: 100vw;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+a > p > i{
+  color: #05C3C3;
+  text-decoration: unset;
+}
+
+a:hover > p > i{
+  color: white;
+}
+
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fa, .fab{
+  font-size: 1.7vw !important;
+  padding: .35vw;
+}
+
+
+@media(min-width:1400px){
+  p{
+    font-size: 1.1vw;
+  }
+
+  .bar{
+    width: 15vw;
+    height: 2vw;
+  }
+  .bar2{
+    width: 14.8vw;
+    height: 2vw;
+  }
+
+  body > div > section.flex.front > div.width1.front > div:nth-child(n) > p.ciano.align-initial.width1{
+    font-size: .8vw;
+  }
+
+  button{
+    font-size: 1.5vw;
+  }
+
+  .hex .middle{
+    width: 3.75vw;
+    height: 2.3vw;
+  }
+
+  .hex .bottom{
+    border-top: 1.03vw solid #0650e5dc;
+    border-left: 1.89vw solid transparent;
+    border-right: 1.89vw solid transparent;
+  }
+
+  .hex .top{
+    border-bottom: 1.03vw solid #0650e5dc;
+    border-left: 1.89vw solid transparent;
+    border-right: 1.89vw solid transparent;
+  }
+
+  .hex{
+    margin-left: 0.18vw;
+    margin-bottom: -0.89vw;
+  }
+
+  .bottom.meio{
+    border-top: 1.03vw solid #0650e59a;
+}
+.middle.meio{
+  background: #0650e59a;
+}
+.top.meio{
+  border-bottom: 1.03vw solid #0650e59a;
+}
+
+.bottom.vinte{
+    border-top: 1.03vw solid #0650e559;
+}
+.middle.vinte{
+  background: #0650e559;
+}
+.top.vinte{
+  border-bottom: 1.03vw solid #0650e559;
+}
+
+.bottom.ciano{
+    border-top: 1.03vw solid #05C3C3;
+}
+.middle.ciano{
+  background: #05C3C3;
+}
+.top.ciano{
+  border-bottom: 1.03vw solid #05C3C3;
+}
+  .tree{
+    width: 13vw;
+    margin-left: 2vw;
+  }
+
+  .hex-row.even{
+    margin-left: -2vw;
+  }
+
+  .project{
+    margin-top: 2vw;
+  }
+}
+
+#modal-project{
+  background: -webkit-linear-gradient(top, #0650e5  0%, rgba(13, 16, 30, 0.95) 8%) 0 57px;
+  -webkit-background-size: 100% 30px;
+  -moz-background-size: 100% 30px;
+  -ms-background-size: 100% 30px;
+  background-size: 100% 10px;  position: fixed;
+  width: 90%;
+  height: 90%;
+  top: 5%;
+  left: 5%;
+  z-index: 1001;
+  border: #0650e5 2px solid;
+  border-radius: 20px;
+  display: flex;
+}
+
+.modal-right{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-left, .modal-right{
+  padding: 20px 0;
+}
+
+.modal-left{
+  width: 70%;
+  background: #0D101E;
+  border-radius: 20px 0px 0px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgblock{
+  width: 20vw;
+}
+
+.imgleft{
+  width: 50vw;
+  border-radius: 20px;
+}
+
+.imgleft:hover{
+  filter: opacity(.5);
+  content: "Visite";
+  transition: .2s;
+}
+
+.fa-html5{
+  color: #F05F2A;
+}
+
+.fa-css3-alt{
+  color: #529DC4;
+}
+
+.fa-js-square{
+  color: #FEC748;
+}
+
+.fa-wordpress{
+  color: whitesmoke;
+}
+
+.ps{
+  width: 2vw;
+}
+
+h4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fecharModal{
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 1vw;
+  cursor: pointer;
+  color: red;
+  font-size: 20px;
+  background: #0D101E;
+  border-radius: 0 20px;
+  border-bottom: solid 2px #0650e5;
+  border-left: solid 2px #0650e5;
+}
+
+#fecharModal:hover{
+  color: #0D101E;
+  background: red;
+  transition: .3s;
+}
+
+.selecao{
+  cursor: pointer;
+  padding: 15px;
+}
+
+.selecaoOn{
+  background: rgba(5, 195, 195, 0.2);
+  border-radius: 20px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.none{
+  display: none !important;
+}
+
+/* Hover Tree skill */
+
+#tree:hover > div:nth-child(1) > div:nth-child(1) > div.top.vinte{
+    border-bottom: 14.43px solid #004aad;
+}
+
+#tree:hover > div:nth-child(1) > div:nth-child(1) > div.middle.vinte{
+  background: #004aad;
+}
+
+#tree:hover > div:nth-child(1) > div:nth-child(1) > div.middle.vinte::before{
+  color: #03010D;
+  content: "TS";
+  font-size: 20px;
+}
+
+#tree:hover > div:nth-child(1) > div:nth-child(1) > div.bottom.vinte{
+  border-top: 14.43px solid #004aad;
+}
+
+
+#tree:hover > div:nth-child(2) > div:nth-child(2) > div.top.ciano{
+    border-bottom: 14.43px solid #FFE500;
+}
+
+#tree:hover > div:nth-child(2) > div:nth-child(2) > div.middle.ciano{
+  background: #FFE500;
+}
+
+#tree:hover > div:nth-child(2) > div:nth-child(2) > div.middle.ciano:before{
+  color: #03010D;
+  content: "JS";
+  font-size: 20px;
+}
+
+#tree:hover > div:nth-child(2) > div:nth-child(2) > div.bottom.ciano{
+  border-top: 14.43px solid #FFE500;
+}
+
+#tree:hover > div:nth-child(2) > div:nth-child(1) > div.top.vinte{
+  border-bottom: 14.43px solid #83FBFF;
+}
+
+#tree:hover > div:nth-child(2) > div:nth-child(1) > div.middle.vinte{
+  background: #83FBFF;
+}
+
+#tree:hover > div:nth-child(2) > div:nth-child(1) > div.middle.vinte::before{
+  color: #03010D;
+  content: "React";
+  font-size: 14px;
+}
+
+#tree:hover > div:nth-child(2) > div:nth-child(1) > div.bottom.vinte{
+  border-top: 14.43px solid #83FBFF;
+}
+
+#tree:hover > div:nth-child(3) > div:nth-child(1) > div.top{
+  border-bottom: 14.43px solid #E54C21;
+}
+
+#tree:hover > div:nth-child(3) > div:nth-child(1) > div.middle{
+  background: #E54C21;
+}
+
+#tree:hover > div:nth-child(3) > div:nth-child(1) > div.middle::before{
+  color: #03010D;
+  content: "HTML";
+  font-size: 16px;
+}
+
+#tree:hover > div:nth-child(3) > div:nth-child(1) > div.bottom{
+  border-top: 14.43px solid #E54C21;
+}
+
+#tree:hover > div:nth-child(2) > div:nth-child(3) > div.top.meio{
+  border-bottom: 14.43px solid #8550D2;
+}
+
+#tree:hover > div:nth-child(2) > div:nth-child(3) > div.middle.meio{
+  background: #8550D2;
+}
+
+#tree:hover > div:nth-child(2) > div:nth-child(3) > div.middle.meio::before{
+  color: #03010D;
+  content: "Bootstrap";
+  font-size: 10px;
+}
+
+#tree:hover > div:nth-child(2) > div:nth-child(3) > div.bottom.meio{
+  border-top: 14.43px solid #8550D2;
+}
+
+#tree:hover > div:nth-child(1) > div:nth-child(2) > div.top{
+  border-bottom: 14.43px solid gray;
+}
+
+#tree:hover > div:nth-child(1) > div:nth-child(2) > div.middle{
+  background: gray;
+}
+
+#tree:hover > div:nth-child(1) > div:nth-child(2) > div.middle::before{
+  color: #03010D;
+  content: "Wordpress";
+  font-size: 10px;
+}
+
+#tree:hover > div:nth-child(1) > div:nth-child(2) > div.bottom{
+  border-top: 14.43px solid gray;
+}
+
+#tree:hover > div:nth-child(3) > div:nth-child(2) > div.top{
+  border-bottom: 14.43px solid #1572B7;
+}
+
+#tree:hover > div:nth-child(3) > div:nth-child(2) > div.middle{
+  background: #1572B7;
+}
+
+#tree:hover > div:nth-child(3) > div:nth-child(2) > div.middle::before{
+  color: #03010D;
+  content: "CSS";
+  font-size: 20px;
+}
+
+#tree:hover > div:nth-child(3) > div:nth-child(2) > div.bottom{
+  border-top: 14.43px solid #1572B7;
+}
+
+#tree:hover > div:nth-child(4) > div:nth-child(1) > div.top.ciano{
+  border-bottom: 14.43px solid #092347;
+}
+
+#tree:hover > div:nth-child(4) > div:nth-child(1) > div.middle.ciano{
+  background: #092347;
+}
+
+#tree:hover > div:nth-child(4) > div:nth-child(1) > div.middle.ciano::before{
+  color: #03010D;
+  content: "Ps";
+  font-size: 20px;
+}
+
+#tree:hover > div:nth-child(4) > div:nth-child(1) > div.bottom.ciano{
+  border-top: 14.43px solid #092347;
+}
+
+#tree:hover > div:nth-child(4) > div:nth-child(2) > div.top.meio{
+  border-bottom: 14.43px solid #FF9A00;
+}
+
+#tree:hover > div:nth-child(4) > div:nth-child(2) > div.middle.meio{
+  background: #FF9A00;
+}
+
+#tree:hover > div:nth-child(4) > div:nth-child(2) > div.middle.meio::before{
+  color: #03010D;
+  content: "Ai";
+  font-size: 20px;
+}
+
+#tree:hover > div:nth-child(4) > div:nth-child(2) > div.bottom.meio{
+  border-top: 14.43px solid #FF9A00;
+}
+
+#tree:hover > div:nth-child(5) > div:nth-child(1) > div.top{
+  border-bottom: 14.43px solid #FF61F6;
+}
+
+#tree:hover > div:nth-child(5) > div:nth-child(1) > div.middle{
+  background: #FF61F6;
+}
+
+#tree:hover > div:nth-child(5) > div:nth-child(1) > div.middle::before{
+  color: #03010D;
+  content: "Xd";
+  font-size: 20px;
+}
+
+#tree:hover > div:nth-child(5) > div:nth-child(1) > div.bottom{
+  border-top: 14.43px solid #FF61F6;
+}
+
+#tree:hover > div:nth-child(5) > div:nth-child(2) > div.top{
+  border-bottom: 14.43px solid #FF7262;
+}
+
+#tree:hover > div:nth-child(5) > div:nth-child(2) > div.middle{
+  background: #FF7262;
+}
+
+#tree:hover > div:nth-child(5) > div:nth-child(2) > div.middle::before{
+  color: #03010D;
+  content: "Figma";
+  font-size: 16px;
+}
+
+#tree:hover > div:nth-child(5) > div:nth-child(2) > div.bottom{
+  border-top: 14.43px solid #FF7262;
+}
+
+/* Fim Hover Tree Skill */
+
+body > div > section.flex.front{
+  display: flex;
+  order: 2;
+}
+
+body > div > section:nth-child(2){
+  display: flex;
+  order: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+body > div > section.flex-between.front{
+  display: flex;
+  order: 3;
+}

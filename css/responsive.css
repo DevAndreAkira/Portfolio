@@ -1,0 +1,81 @@
+@media (max-width: 1000px){
+  body > div > section.flex-between.front{
+    flex-direction: column;
+  }
+  .width1{
+    width: 100%;
+  }
+  body > div > section.flex.front{
+    flex-direction: column;
+  }
+  body > div > section:nth-child(2){
+    position: unset;
+  }
+  .bar{
+    width: 100vw;
+  }
+  .bar2{
+    width: 98vw;
+  }
+  .div1{
+    height: unset;
+  }
+  .flex-column{
+    flex-direction: column;
+    align-items: center;
+  }
+  .project{
+    margin-top: 50px;
+  }
+  .flex-end{
+    margin: 5px 0;
+  }
+  body > div > section.flex.front > div.width1.front,
+  body > div > section.flex.front > div:nth-child(1),
+  body > div > section.flex-between.front > div.width1.marginTop.front{
+    margin-top: 50px;
+  }
+  .me{
+    width: 200px;
+  }
+  .modal-left{
+    width: 100%;
+    height: 50%;
+    border-radius: 20px 20px 0px 0px;
+  }
+  .ps{
+    width: 5vw;
+  }
+  .fab, .far, .fa{
+    font-size: 3.7vw !important;
+  }
+  #white > p{
+    display: none;
+  }
+  #white > p::before{
+    content: "Selecione um projeto abaixo :)"
+  }
+}
+
+@media (max-width: 767px){
+  .div1{
+    padding: 30px;
+  }
+  .project{
+    width: 200px;
+  }
+  #modal-project{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .modal-right{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  #modal-project > div.modal-right > p{
+    display: none;
+  }
+
+}
