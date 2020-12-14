@@ -1,5 +1,6 @@
-# Portfolio (Responsivo)
-<p>Portfólio em construção</p>
+# Portfolio
+<p>Esse portfólio foi inspirado na seguinte imagem.</p>
+
 
 <h2>Comporta</h2>
 <ul>
