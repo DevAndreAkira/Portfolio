@@ -35,7 +35,7 @@ i{
 
 body{
   background-image: url(../img/bg.webp);
-  width:100;
+  width:100%;
   background-size: cover;
   height:100%;
   position: absolute;
