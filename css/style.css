@@ -267,7 +267,7 @@ a:hover > p > i{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  z-index: 1110;
+  z-index: 1001;
 }
 
 .fa, .fab{
@@ -373,7 +373,7 @@ a:hover > p > i{
   height: 90%;
   top: 5%;
   left: 5%;
-  z-index: 1001;
+  z-index: 1002;
   border: #0650e5 2px solid;
   border-radius: 20px;
   display: flex;
