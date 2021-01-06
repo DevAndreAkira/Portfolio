@@ -5,6 +5,7 @@ var btnfechar = document.getElementById("fecharModal");
 
 var site1 = document.getElementById("site1");
 var site2 = document.getElementById("site2");
+var site3 = document.getElementById("site3");
 
 btnProject.onclick = function () {
   modalproject.classList.remove('none');
@@ -19,6 +20,7 @@ btnfechar.onclick = function () {
 
   document.getElementById("a3tech").classList.add("none");
   document.getElementById("labufalina").classList.add("none");
+  document.getElementById("senaitechvagas").classList.add("none");
   document.getElementById("white").classList.remove("none");
 }
 
