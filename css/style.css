@@ -387,6 +387,29 @@ a:hover > p > i{
   overflow: overlay;
   width: 100%;
 }
+::-webkit-scrollbar{
+  width: 3vw;
+}
+::-webkit-scrollbar-track{
+  border: #004aad 2px solid;
+  border-radius:  0 20px 20px 0;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(
+    to top, #05C3C3, #004aad
+  ) ;
+  border-radius:  0 20px 20px 0;
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate{
+  0%, 100%{
+    filter: hue-rotate(0deg);
+  }
+  50%{
+    filter: hue-rotate(360deg);
+  }
+}
 
 .modal-left, .modal-right{
   padding: 20px 0;
