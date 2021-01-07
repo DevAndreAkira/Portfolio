@@ -393,7 +393,7 @@ a:hover > p > i{
 }
 
 .modal-left{
-  width: 70%;
+  width: 200%;
   background: #0D101E;
   border-radius: 20px 0px 0px 20px;
   display: flex;
