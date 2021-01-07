@@ -56,7 +56,7 @@
 @media (max-width: 767px){
   .modal-left{
     width: 100%;
-    height: 50%;
+    height: 70%;
     border-radius: 20px 20px 0px 0px;
   }
   .div1{
@@ -73,17 +73,25 @@
   .modal-right{
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    overflow-y: hidden;
+  }
+  ::-webkit-scrollbar-track{
+    border-radius:  0 0 20px 20px ;
+  }
+  ::-webkit-scrollbar-thumb{
+    border-radius:  0 0 20px 20px ;
   }
   #modal-project > div.modal-right > p{
     display: none;
   }
   .imgleft{
-    width: 70vw;
+    width: 60vw;
     margin: 20px 0;
   }
   .imgblock{
     width: 150px;
   }
+
 
 }
