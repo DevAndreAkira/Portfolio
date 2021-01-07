@@ -384,6 +384,7 @@ a:hover > p > i{
   display: flex;
   flex-direction: column;
   align-items: center;
+  overflow: auto;
 }
 
 .modal-left, .modal-right{
