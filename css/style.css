@@ -420,6 +420,14 @@ a:hover > p > i{
   color: #F05F2A;
 }
 
+.fa-react{
+  color: #05C3C3;
+}
+
+.fa-figma{
+  color: #FF7262;
+}
+
 .fa-css3-alt{
   color: #529DC4;
 }
