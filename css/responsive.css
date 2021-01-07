@@ -92,6 +92,14 @@
   .imgblock{
     width: 150px;
   }
+}
 
-
+@media (max-width: 500px){
+  .imgleft{
+    width: 80vw;
+    margin: 20px 0;
+  }
+  .modal-left{
+    padding: 15px;
+  }
 }
