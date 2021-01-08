@@ -145,7 +145,7 @@ h2, .ciano{
   border: solid 3px #05C3C3;
   background: transparent;
   border-radius: 100vw;
-  width: 26vw;
+  width: 22vw;
   z-index: 999;
   cursor: pointer;
 }
@@ -508,6 +508,14 @@ h4{
 
 .none{
   display: none !important;
+}
+
+body > div > section:nth-child(2) > div > div:nth-child(2){
+  margin: 0 5px;
+}
+
+#btn-project{
+  margin: 20px 0; 
 }
 
 /* Hover Tree skill */
