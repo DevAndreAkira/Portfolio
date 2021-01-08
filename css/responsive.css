@@ -51,6 +51,9 @@
   #white > p::before{
     content: "Selecione um projeto abaixo :)"
   }
+  .div1{
+    align-items: unset;
+  }
 }
 
 @media (max-width: 767px){
